@@ -1,0 +1,77 @@
+.footercontainer {
+    margin-top:20px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 31px;
+    padding-right: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: hsla(212, 99%, 36%, 1);
+    /* margin: 0; */
+    /* overflow-x: hidden; */
+}
+
+.logo {
+    margin-bottom: 45px;
+}
+
+.box1 {
+    padding-bottom: 53.5px;
+}
+
+.box2 {
+    padding-bottom: 61px;
+}
+
+.box3 {
+    padding-bottom: 33px;
+}
+
+.box4 {
+    padding-bottom: 51px;
+}
+
+.logo img {
+    width: 71px;
+    height: 52.5px;
+}
+
+.group1 img {
+    width: 28px;
+    height: 28px;
+    margin-right: 25px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dropdown-item {
+    color: white;
+    text-decoration: none;
+}
+
+.box4 img {
+    width: 149px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+a[href="mailto:info@nobletrustbank.com"] {
+    text-decoration: none;
+    color: black;
+}
+
+.box2 a[href="mailto:info@nobletrustbank.com"] {
+    color: white;
+}
+.group1{
+    margin-left: 50px;
+}

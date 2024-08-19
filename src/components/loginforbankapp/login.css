@@ -1,0 +1,128 @@
+
+
+
+/* body{
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Arial, sans-serif;
+    height:100vh;
+    background-color:#062863;
+    overflow-x:hidden;
+} */
+
+.fullscreen-background {
+    background-color:#062863 ;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Arial, sans-serif;
+    height:100vh;
+    background-color:#062863;
+    overflow-x:hidden;
+}
+
+
+.ContainerforLogin{
+    text-align: center;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   width:100%;
+   max-width:400px;
+   /* border: 1px solid; */
+
+    }
+    .ContainerforInput{
+            background-color:#fff;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            text-align:center;
+            width:320px;
+            /* background-color:#0057e7; */
+            /* color:#fff; */
+
+         
+    } 
+    .ContainerforInput h2{
+        margin-bottom:10px;
+        font-size:18px;
+        color:#0155B7;
+    }
+    .ContainerforInput p{
+        margin-bottom:20px;
+        font-size:14px;
+        color:#808080;
+    }
+.ContainerforInput label{
+    display:block;
+    text-align:left;
+    font-size: 16px;
+    margin-bottom:5px;
+    margin-left:4px;
+    font-weight:bold;
+}
+
+.ContainerforInput [type="text"],
+.ContainerforInput [type="password"]{
+width:90%;
+padding:10px;
+border-radius:5px;
+margin-bottom:5px;
+border:transparent;
+background-color:#EDF2F7;
+}
+.ContainerforInput button{
+    width:100%;
+    padding:10px;
+    background-color: #0040b2;
+    border:none;
+    border-radius:5px;
+    margin-top:10px;
+    font-size:16px;
+    cursor:pointer;
+    color:white;
+
+}
+.ContainerforInput button:hover{
+    background-color: #00328f;
+}
+.register-text{
+    margin-top:15px;
+    font-size:14px;
+
+}
+.register-text a{
+    color:#808080;
+     }
+     .logoforbankapp1{
+        position:absolute;
+        top:30px;
+        display: flex;
+        justify-content:center;
+        align-content:center;
+        /* transform:(-50%); */
+        margin-bottom: -20px;
+     }
+     .logoforbank2{
+        width:100px;
+        display:block;
+        margin: 0 auto;
+
+     }
+     .Logocontainer{
+        margin-bottom:20px;
+     }
+
+
+

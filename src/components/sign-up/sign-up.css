@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.ContainerforSignup{
+    background-color:#062863 ;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Arial, sans-serif;
+    height:100vh;
+    background-color:#062863;
+    overflow-x:hidden;
+    height:100%;
+    width:100%;
+}
+.ContainerforFormBox{
+    background-color:#ffff;
+    border-radius:10px;
+    padding:40px;
+    width:400px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    /* text-align: center; */
+}
+.ContainerforFormBox h2{
+    color:#0155B7;
+    margin-bottom:10px;
+}
+.ContainerforFormBox p{
+    color:#808080;
+    margin-bottom:20px;
+    font-size:16px;
+    
+    
+
+}
+.ContainerforFormBox input {
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+     background-color:#EDF2F7;
+    border:1px solid;
+    border-color:transparent;
+
+}
+.ContainerforFormBox button{
+    width:100%;
+    padding:10px;
+    background-color:#0056b3;
+    border:none;
+    color:#ffff;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+
+} 
+.ContainerforFormBox button:hover{
+    background-color: #003f7f;
+}
+.ContainerforFormBox label{
+    display:block;
+    text-align:left;
+    font-size: 12px;
+    margin-bottom:5px;
+    /* margin-left:10px; */
+    font-weight:bold;
+}
+#Login-link{
+   color: grey;
+    margin-top:10px;
+    font-size:16px;
+    text-align: center;
+}
+.ContainerforFormBox label{
+    margin-bottom:5px;
+    margin-top:5px;
+}
