@@ -1,6 +1,5 @@
-.footercontainer {
-    margin-top:20px;
-
+.footerContainer {
+    margin-top: 20px;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 31px;
@@ -10,8 +9,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: hsla(212, 99%, 36%, 1);
-    /* margin: 0; */
-    /* overflow-x: hidden; */
 }
 
 .logo {
@@ -51,7 +48,7 @@ p {
     font-weight: 400;
 }
 
-.dropdown-item {
+.dropdownItem {
     color: white;
     text-decoration: none;
 }
@@ -72,6 +69,7 @@ a[href="mailto:info@nobletrustbank.com"] {
 .box2 a[href="mailto:info@nobletrustbank.com"] {
     color: white;
 }
-.group1{
+
+.group1 {
     margin-left: 50px;
 }

@@ -1,18 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .dashboardContainer {
+    display: flex;
     width:100%;
-    border:1px solid red;
 }
  
 .sidebar{
-    position: absolute;
-    top: 20;
-    left: 0;
-    height: 100vh;
+    /* height: 100vh; */
     width: 80px;
     background-color: #0155B7;
     padding: 4px 8px;
@@ -27,20 +19,25 @@
 .sidebar.active{
     width: 250px;
 }
+
+.sidebar .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
 .sidebar #btn{
-    position: absolute;
     color: white;
-    top: 4px;
-    left: 50%;
     font-size: 1.2rem;
     line-height: 50px;
-    transform: translateX(-50%);
     cursor: pointer;
 }
  
 .sidebar.active #btn{
     left: 90%;
+}
+.sidebar .top .logoCtn{
+    display: none;
 }
  
 .sidebar .top .logo{
@@ -50,22 +47,34 @@
     width: 100%;
     align-items: center;
     pointer-events: none;
-    opacity: 0;
 }
  
-.sidebar.active .top .logo{
-    opacity: 1;
+.sidebar.active .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar.active .top .logoCtn{
+    display: block;
 }
  
 .top.logo img{
     margin-right: 5px;
 }
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
  
 .sidebar ul li{
     position: relative;
     list-style-type: none;
+    display: flex;
+    align-items: center;
     height: 50px;
-    width: 90%;
+    width: 100%;
     margin: 8px auto;
     line-height: 50px;
 }
@@ -75,10 +84,16 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    border-radius: 0.8rem
+    border-radius: 0.8rem;
+    width: 100%;
 }
  
-.sidebar ul li a:hover{
+.sidebar ul li a .bx:hover{
+    background-color: #EDF5FC;
+    color: black;
+}
+
+.sidebar.active ul li a:hover{
     background-color: #EDF5FC;
     color: black;
 }
@@ -101,58 +116,56 @@
  
 .sidebar ul li .tooltip{
     position: absolute;
-    left: 125px;
+    left: 100px;
     top: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding: 6px 19px;
-    line-height: 29px;
-    z-index: 20;
-    opacity: 0;
+    padding: 6px 10px;
+    line-height: 25px;
+    z-index: 0;
+    display: none;
+    background-color: #fff;
 }
  
 .sidebar ul li:hover .tooltip{
-    opacity: 1;
+    display: block;
 }
  
 .sidebar.active ul li .tooltip{
     display: none;
 }
  
-.main-content{
-    /* position: relative; */
-    background-color: #EDF5FC;
-    /* min-height: 100vh; */
-    /* top: 0; */
-    /* left: 80px; */
-    transition: all 0.5s ease;
-    width:100%;
-    padding: 1rem;
-}  
- 
+.content-view{
+    width: 100%;
+}
  
 .container5{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
+    align-items: center;
+    padding-block: 2px;
     border-bottom: 1px solid black;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    width: 100%;
     background-color: #EDF5FC;
+}
+
+.container5 span img{
+    display: flex;
+}
+
+.container5 div.notification{
+    display: flex;
+    justify-content: right;
+    padding-inline: 5px;
+    width: 20%;
+
 }
  
 .container5 a{
     color: black;
     border-radius: 0.8rem;
  
-}
- 
-.container5 a i{
-    padding-right: 50px;
-    /* min-width: 50px; */
-    height: 50px;
-    line-height: 35px;
 }
  
 .container5 .tooltip{
@@ -167,11 +180,3 @@
     z-index: 200;
     opacity: 0;
 }
- 
-.container:hover .tooltip{
-    opacity: 1;
-}
-
- 
-
- 

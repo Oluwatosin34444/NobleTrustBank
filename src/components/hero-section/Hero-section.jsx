@@ -1,13 +1,12 @@
 import React from 'react';
-import './hero-section.css';
+import style from './herosection.module.css';
 
 const HeroSection = () => {
   return (
-    
     <main>
       <section id="home">
-        <div className="content">
-          <div className="content-left">
+        <div className={style.content}>
+          <div className={style.contentLeft}>
             <h1>Welcome to the Future of Banking.</h1>
             <h2>Experience Hassle-Free Transactions</h2>
             <p>
@@ -15,10 +14,10 @@ const HeroSection = () => {
               and keep track of your finances at your fingertips. What are you waiting for? 
               Download the NobleTrust Bank app today and experience convenience like never before.
             </p>
-            <button type="button" className="button2">Get Started</button>
+            <button type="button" className={style.button2}>Get Started</button>
           </div>
 
-          <div className="content-right">
+          <div className={style.contentRight}>
             <img 
               src="/images/picnforhero.png" 
               width="612px" 

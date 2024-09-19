@@ -33,12 +33,12 @@
 
 // };
 import React from 'react';
-import './contact-us.css'; // Assuming the CSS file is named contact-us.css
+import style from './contactUs.module.css'; // Importing the CSS module
 
 const ContactUs = () => {
     return (
-        <div className="contact-us" id="contact us">
-            <div className="contactus-details">
+        <div className={style.contactUs} id="contact us">
+            <div className={style.contactUsDetails}>
                 <h2>CONTACT US</h2>
                 <div>
                     <p>Help Desk</p>
@@ -49,8 +49,8 @@ const ContactUs = () => {
                     </ul>
                 </div>
             </div>
-            <div className="contactus-img">
-                <img src ="/images/ContactusPic.png" alt="Contact Us" />
+            <div className={style.contactUsImg}>
+                <img src="/images/ContactusPic.png" alt="Contact Us" />
             </div>
         </div>
     );

@@ -1,19 +1,18 @@
-body {
+/* body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.contact-us {
+.contactUs {
     display: flex;
     flex-direction: row;
     padding-left: 114px;
     padding-right: 50px;
     padding-top: 50px;
     background-color: hsla(208, 71%, 96%, 1);
-    width:100%;
+    width: 100%;
 }
 
 h2 {
@@ -32,10 +31,9 @@ span {
     word-wrap: break-word;
 }
 
-.contactus-details {
+.contactUsDetails {
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: flex-start;  */
     gap: 32px;
     display: inline-flex;
     margin-right: 150px;
@@ -43,13 +41,12 @@ span {
     padding-bottom: 106.5px;
 }
 
-.contactus-img img {
+.contactUsImg img {
     width: 663px;
     height: 442px;
     border-radius: 8px;
-    /* margin-left: 32px; */
-
 }
+
 a[href="mailto:info@nobletrustbank.com"] {
     text-decoration: none;
     color: black;

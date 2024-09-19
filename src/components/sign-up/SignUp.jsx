@@ -1,10 +1,10 @@
 import React from 'react';
-import './sign-up.css';
+import style from './signup.module.css';
 
 function Signup() {
     return (
-        <div className="ContainerforSignup">
-            <div className="ContainerforFormBox">
+        <div className={style.ContainerforSignup}>
+            <div className={style.ContainerforFormBox}>
                 <h2>Create a Secure Account</h2>
                 <p>Welcome to the future of Banking and Savings</p>
                 <form>
@@ -22,7 +22,7 @@ function Signup() {
 
                     <button type="submit">CREATE ACCOUNT</button>
                 </form>
-                <p id="Login-link">Already have an account? <a href="#">Log in</a></p>
+                <p className={style.LoginLink}>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     );

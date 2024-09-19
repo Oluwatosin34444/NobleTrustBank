@@ -6,6 +6,15 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+@font-face {
+  font-family: 'averta';
+  src: url('/Averta-Regular.otf'); /* Adjust the path based on your folder structure */
+  font-weight: 400;
+}
+
+* {
+  font-family: 'averta', sans-serif;
+}
 
 
 /* :root {

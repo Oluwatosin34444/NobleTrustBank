@@ -1,0 +1,155 @@
+.mainContent {
+    position: relative;
+    background-color: #EDF5FC;
+    min-height: 100vh;
+    top: 0;
+    left: 80px;
+    transition: all 0.5s ease;
+    width: calc(100% - 80px);
+    padding: 1rem;
+}
+
+.containerLayout {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #EDF5FC;
+}
+
+.containerLink {
+    color: black;
+    border-radius: 0.8rem;
+}
+
+.containerIcon {
+    padding-right: 50px;
+    height: 50px;
+    line-height: 35px;
+}
+
+.containerTooltip {
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 6px 19px;
+    line-height: 29px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.containerLinkHover:hover .containerTooltip {
+    opacity: 1;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #0155B7;
+}
+
+.userIcon {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.accountContent {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.accountCard {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    background-color: #fff;
+    color: black;
+}
+
+.accountCardHover:hover {
+    background-color: #0155B7;
+    color: white;
+}
+
+.cardTitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cardText {
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.cardListItem {
+    position: relative;
+    list-style-type: none;
+    height: 30px;
+    width: 90%;
+    margin: 8px auto;
+}
+
+.cardLink {
+    color: black;
+    text-decoration: none;
+}
+
+.cardLinkHover:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.cardIcon {
+    font-size: larger;
+    font-weight: normal;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.iconText {
+    margin-bottom: 2px;
+    margin-left: 8px;
+}
+
+.transferContainer {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 33px;
+    padding: 20px;
+    height: 200px;
+    background-color: #fff;
+    color: black;
+}
+
+.transferTitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.transferText {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.transferSubContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
