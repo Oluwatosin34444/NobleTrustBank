@@ -1,4 +1,4 @@
-.mainContent {
+/* .mainContent {
     position: relative;
     background-color: #EDF5FC;
     min-height: 100vh;
@@ -7,7 +7,7 @@
     transition: all 0.5s ease;
     width: calc(100% - 80px);
     padding: 1rem;
-}
+} */
 
 .containerLayout {
     display: flex;

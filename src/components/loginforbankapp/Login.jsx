@@ -20,7 +20,7 @@ function Login() {
         console.log('after', emal, pass);
 
         if (userExist) {
-            navigate("/acc", { replace: true });
+            navigate("/dashboard/my-account", { replace: true });
             console.log('redirect successful');
         } else {
             console.log('user does not exist');
